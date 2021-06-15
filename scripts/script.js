@@ -48,6 +48,7 @@ $(document).ready(() => {
     });
 
     //buttons click
+    
     $(".button-order").click(() => {
         $("html, body").animate({scrollTop: $("#how-to-order").offset().top}, 1000);
     });
@@ -109,4 +110,3 @@ $(document).ready(() => {
         $("#main-nav").slideToggle(500);
     });
 });
-
